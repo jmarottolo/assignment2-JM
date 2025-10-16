@@ -33,5 +33,11 @@ ggsave("bodymass_billlength_plot.png", plot = body_mass_plot, width = 5, height 
 
 
 
+####PART 3: VERSION CONTROL - TESTING A REGRESSION####
+
+myReg <- lm(`bill_length_mm` ~ `body_mass_g`, data = myData)
+summary(myReg)
+
+
 
 
