@@ -39,5 +39,7 @@ myReg <- lm(`bill_length_mm` ~ `body_mass_g`, data = myData)
 summary(myReg)
 
 
-
+#This creates a simple bar graph for penguin species - Arian Z
+ggplot(data = penguin)+
+  geom_bar(aes(x=species))
 
